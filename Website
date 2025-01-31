@@ -1,0 +1,43 @@
+<!Doctype html>
+<html>
+ <head>
+  <title>
+    Hobbies
+   </title>
+   <style>
+     h1{
+            text-align: center;
+           }
+    .textselector{
+        color: blue;
+        font-style: italic;
+        background-color: lightgreen;
+        margin: 2px;
+        padding: 5px;
+        border: 2px solid black;
+    }
+    body{
+        text-align: center;
+    }
+    .textcolor{
+        background-color: white;
+    }
+   </style>
+ </head>
+  <body style="background-color: coral;">
+    <h1>
+      My Hobbies
+    </h1>
+    <div style="background-color: red;">
+    <ul class="textselector" >
+      <li style="font-style: italic;">My favourite Hobbies
+        <ol class="textcolor">
+          <li>Reading
+            <li>playing video games
+            </ol>
+          </ul>
+    </div>
+         <p>My favourite game is<span class=textselector> <a href="https://www.roblox.com/">Roblox</a></span> </p>
+          <img src="data:image/jpeg;base64,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" alt="Roblox_icon">
+  </body>
+</html>
